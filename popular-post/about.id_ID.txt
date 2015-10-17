@@ -1,0 +1,16 @@
+Title: Widget Posting Populer
+Author: Taufik Nurrohman
+URL: http://latitudu.com
+Version: 0.0.0
+
+====
+
+Plugin ini membutuhkan plugin [Penghitung Tayangan Halaman](http://mecha-cms.com/article/page-views-counter-plugin "Page Views Counter Plugin") untuk membuatnya bekerja.
+
+#### Penggunaan
+
+~~~ .php
+<?php echo Widget::popularPost(); ?>
+~~~
+
+<!-- block:donate -->

@@ -1,0 +1,10 @@
+widget:
+  popular_post: Popular Post
+  popular_posts: Popular Posts
+
+plugin_popular_post:
+  css: Widget&rsquo;s <abbr title="Cascading Style Sheet">CSS</abbr>
+  style: Style
+  style_: Style %s
+  display: Display
+  views: %d Views
