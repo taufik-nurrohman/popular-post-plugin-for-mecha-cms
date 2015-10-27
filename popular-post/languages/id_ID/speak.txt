@@ -6,5 +6,6 @@ plugin_popular_post:
   css: <abbr title="Cascading Style Sheet">CSS</abbr>
   style: Gaya
   style_: Gaya %s
-  display: Display
-  views: %d Views
+  display: Tampilkan
+  views: %d Tayangan
+  error: Plugin ini memerlukan plugin penghitung tayangan laman untuk membuatnya bisa bekerja.

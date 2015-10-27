@@ -1,9 +1,11 @@
 Title: Widget Posting Populer
 Author: Taufik Nurrohman
 URL: http://latitudu.com
-Version: 0.0.0
+Version: 1.0.0
 
 ====
+
+> Menampilkan daftar posting blog yang paling banyak dilihat di sidebar.
 
 Plugin ini membutuhkan plugin [Penghitung Tayangan Halaman](http://mecha-cms.com/article/page-views-counter-plugin "Page Views Counter Plugin") untuk membuatnya bekerja.
 

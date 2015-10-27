@@ -8,3 +8,4 @@ plugin_popular_post:
   style_: Style %s
   display: Display
   views: %d Views
+  error: This plugin requires the page views counter plugin to make it work.

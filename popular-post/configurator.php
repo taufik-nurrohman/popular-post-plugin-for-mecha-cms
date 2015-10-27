@@ -1,4 +1,4 @@
-<form class="form-plugin" action="<?php $popular_post_config = File::open(PLUGIN . DS . File::B(__DIR__) . DS . 'states' . DS . 'config.txt')->unserialize(); $popular_post_css = File::open(PLUGIN . DS . File::B(__DIR__) . DS . 'assets' . DS . 'shell' . DS . 'widget.css')->read(); echo $config->url_current; ?>/update" method="post">
+<form class="form-plugin" action="<?php $popular_post_config = File::open(PLUGIN . DS . File::B(__DIR__) . DS . 'states' . DS . 'config.txt')->unserialize(); $popular_post_css = File::open(PLUGIN . DS . File::B(__DIR__) . DS . 'assets' . DS . 'shell' . DS . 'widgets.css')->read(); echo $config->url_current; ?>/update" method="post">
   <?php echo Form::hidden('token', $token); ?>
   <label class="grid-group">
     <span class="grid span-2 form-label"><?php echo $speak->plugin_popular_post->style; ?></span>
