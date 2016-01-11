@@ -1,10 +1,12 @@
 <?php
 
+// TODO: show thumbnail
+
 $i = 0;
 $html .= $T1 . '<ul class="popular-post-list">' . NL;
 foreach($stats as $k => $v) {
     if($i === $popular_post_config['total']) break;
-    $post = Get::articleHeader($k);
+    if( ! $post = Get::articleHeader($k)) continue;
     $html .= $T2 . '<li class="popular-post">' . NL;
     $html .= $T3 . '<div class="popular-post-header">' . NL;
     $html .= $T4 . '<a class="popular-post-title" href="' . $post->url . '">' . $post->title . '</a>' . NL;
