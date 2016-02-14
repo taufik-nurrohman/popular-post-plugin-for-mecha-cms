@@ -3,9 +3,13 @@ widget:
   popular_posts: Posting Populer
 
 plugin_popular_post:
-  css: <abbr title="Cascading Style Sheet">CSS</abbr>
-  style: Gaya
-  style_: Gaya %s
-  display: Tampilkan
-  views: %d Tayangan
-  error: Plugin ini memerlukan plugin penghitung tayangan laman untuk membuatnya bisa bekerja.
+  title:
+    css: <abbr title="Cascading Style Sheet">CSS</abbr>
+    style: Gaya
+    thumbnail: Ukuran Gambar Mini
+    style_: Gaya %s
+    display: Tampilkan
+    views: %d Tayangan
+  description:
+    thumbnail: Pastikan juga untuk memperbaharui nilai <code>width</code> dan <code>height</code> pada <abbr title="Cascading Style Sheet">CSS</abbr>.
+    error: Plugin ini memerlukan plugin penghitung tayangan laman untuk membuatnya bisa bekerja.

@@ -1,1 +1,1 @@
-a:2:{s:4:"kind";i:2;s:5:"total";i:7;}
+a:3:{s:4:"kind";i:1;s:5:"total";i:7;s:9:"thumbnail";i:50;}

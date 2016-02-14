@@ -6,14 +6,7 @@
  * --------------
  */
 
-Route::accept($config->manager->slug . '/plugin/' . File::B(__DIR__) . '/update', function() use($config, $speak) {
-    if($request = Request::post()) {
-        Guardian::checkToken($request['token']);
-        File::write($request['css'])->saveTo(__DIR__ . DS . 'assets' . DS . 'shell' . DS . 'widgets.css');
-        unset($request['token']); // Remove token from request array
-        unset($request['css']); // Remove CSS from request array
-        File::serialize($request)->saveTo(__DIR__ . DS . 'states' . DS . 'config.txt', 0600);
-        Notify::success(Config::speak('notify_success_updated', $speak->plugin));
-        Guardian::kick(File::D($config->url_current));
-    }
+Route::over($config->manager->slug . '/plugin/' . File::B(__DIR__) . '/update', function() {
+    File::write(Request::post('css'))->saveTo(__DIR__ . DS . 'assets' . DS . 'shell' . DS . 'widgets.css');
+    unset($_POST['css']);
 });

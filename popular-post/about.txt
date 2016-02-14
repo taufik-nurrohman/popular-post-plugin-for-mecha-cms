@@ -1,7 +1,7 @@
 Title: Popular Post Widget
 Author: Taufik Nurrohman
 URL: http://latitudu.com
-Version: 1.2.0
+Version: 1.3.0
 
 ====
 
@@ -9,10 +9,19 @@ Version: 1.2.0
 
 This plugin requires [Page Views Counter](http://mecha-cms.com/article/page-views-counter-plugin "Page Views Counter Plugin") plugin to make it work.
 
-#### Usage
+#### Basic Usage
 
 ~~~ .php
 <?php echo Widget::popularPost(); ?>
+~~~
+
+#### As Widget Block
+
+~~~ .php
+<?php Shield::chunk('block.widget', array(
+    'title' => $speak->widget->popular_posts,
+    'content' => Widget::popularPost()
+)); ?>
 ~~~
 
 <!-- block:donate -->
