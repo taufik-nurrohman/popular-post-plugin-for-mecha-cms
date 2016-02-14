@@ -11,5 +11,5 @@ plugin_popular_post:
     display: Display
     views: %d Views
   description:
-    thumbnail: Make sure to update the thumbnail <code>width</code> and <code>height</code> value in the <abbr title="Cascading Style Sheet">CSS</abbr> too.
+    thumbnail: Make sure to update thumbnail <code>width</code> and <code>height</code> value in the <abbr title="Cascading Style Sheet">CSS</abbr> too.
     error: This plugin requires the page views counter plugin to make it work.
