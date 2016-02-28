@@ -1,6 +1,6 @@
 widget:
-  popular_post: Posting Populer
-  popular_posts: Posting Populer
+  popular_post: Pos Populer
+  popular_posts: Pos Populer
 
 plugin_popular_post:
   title:
